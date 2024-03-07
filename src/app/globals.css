@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.bgScoreBoard {
+  background-image: url("../../public/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  font-family: "Itim", cursive;
+}
+
+.boxScoreBoard {
+  background-image: url("../../public/images/bgBox.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 527/831;
+  max-width: 527px;
+  height: auto;
+  position: relative;
+}
+.scoreboard-title {
+  @apply absolute -translate-x-1/2 -translate-y-1/2 left-[49.5%] top-[12%] w-[60%] font-bold text-white text-center text-[22px];
+}
+
+.scoreboard-body {
+  @apply absolute -translate-x-1/2 -translate-y-1/2 left-[50%] top-[48%] w-[63%] h-auto font-bold aspect-[42/56] py-5 px-2;
+}
+
+.lists-score {
+}
+
+.item-score {
+  @apply text-[#562234] mb-3;
+}
+.score-number {
+  @apply text-2xl min-w-12 md:text-4xl md:min-w-16;
+}
+.score-name {
+  @apply text-base block md:text-2xl;
+}
+.score-point {
+  @apply text-sm md:text-xl;
+}
+
+.scoreboard-next {
+  @apply absolute -translate-x-1/2 -translate-y-1/2 left-[79%] top-[82%] w-[10%] h-auto font-bold aspect-[1/1];
+}
+.scoreboard-next button {
+  @apply w-full h-full block;
+  content: '';
+}
+
+.scoreboard-prev {
+  @apply absolute -translate-x-1/2 -translate-y-1/2 left-[22%] top-[82%] w-[10%] h-auto font-bold aspect-[1/1];
+}
+
+.scoreboard-prev button {
+  @apply w-full h-full block;
+  content: '';
+}
+
+.scoreboard-tryAgain {
+  @apply absolute -translate-x-1/2 -translate-y-1/2 left-[50%] top-[82%] w-[40%] h-auto font-bold aspect-[3/1];
+}
+
+.scoreboard-tryAgain a {
+  @apply w-full h-full block;
+  content: '';
+}
