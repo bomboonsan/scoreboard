@@ -40,10 +40,6 @@ import { NextResponse } from 'next/server'
 import { MongoClient } from 'mongodb';
 export async function POST(request) {
     
-    // Enable CROS
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
 
     try {
         
