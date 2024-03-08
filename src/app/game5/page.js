@@ -75,6 +75,7 @@ export default function Game1() {
                         </div>
                         <div className="scoreboard-body">
                             <div className="lists-score">
+                                
                                 <div className="item-score">
                                     <div className="flex items-center justify-between">
                                         <div className="th-score-number">
