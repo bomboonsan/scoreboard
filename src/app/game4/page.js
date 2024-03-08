@@ -68,9 +68,9 @@ export default function Game1() {
             <div className="flex justify-center items-center min-h-screen">
                 <div className="flex-1 max-w-[500px]">
                     <div className="boxScoreBoard">
-                        <div className="scoreboard-title">
+                        <div className="scoreboard-title uppercase">
                             <AutoTextSize>
-                            Highly Specific H1R & Non Brain Penetrating
+                            Beat Allergy
                             </AutoTextSize>
                         </div>
                         <div className="scoreboard-body">

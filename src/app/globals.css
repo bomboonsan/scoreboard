@@ -17,37 +17,54 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  aspect-ratio: 527/831;
+  aspect-ratio: 527/973;
   max-width: 527px;
   height: auto;
   position: relative;
 }
 .scoreboard-title {
-  @apply absolute -translate-x-1/2 -translate-y-1/2 left-[49.5%] top-[12%] w-[60%] font-bold text-white text-center text-[22px];
+  @apply absolute -translate-x-1/2 -translate-y-1/2 left-[49.5%] top-[10%] w-[60%] font-bold text-white text-center text-[22px];
 }
 
 .scoreboard-body {
-  @apply absolute -translate-x-1/2 -translate-y-1/2 left-[50%] top-[48%] w-[63%] h-auto font-bold aspect-[42/56] py-5 px-2;
+  @apply absolute -translate-x-1/2 -translate-y-1/2 left-[50%] top-[50%] w-[63%] h-auto font-bold aspect-[42/80] py-5 px-2;
 }
 
 .lists-score {
 }
 
 .item-score {
-  @apply text-[#562234] mb-3;
+  @apply text-[#562234] mb-3 pt-2 pb-5 border-b-2 border-[#562234]/30 last:border-b-0;
 }
+
+.th-score-number {
+  @apply basis-1/4 w-1/4;
+  @apply text-sm min-w-12 md:text-xl md:min-w-10 text-left font-bold uppercase text-center;
+}
+.th-score-name {
+  @apply basis-1/2 w-1/2;
+  @apply text-sm block md:text-xl truncate text-left font-bold uppercase;
+}
+.th-score-point {
+  @apply basis-1/4 w-1/4;
+  @apply text-sm md:text-xl text-left font-bold uppercase text-center;
+}
+
 .score-number {
-  @apply text-2xl min-w-12 md:text-4xl md:min-w-16;
+  @apply basis-1/4 w-1/4;
+  @apply text-base md:text-2xl md:min-w-10 text-center;
 }
 .score-name {
-  @apply text-base block md:text-2xl;
+  @apply basis-1/2 w-1/2;
+  @apply text-base block md:text-2xl truncate;
 }
 .score-point {
-  @apply text-sm md:text-xl;
+  @apply basis-1/4 w-1/4;
+  @apply text-base md:text-2xl;
 }
 
 .scoreboard-next {
-  @apply absolute -translate-x-1/2 -translate-y-1/2 left-[79%] top-[82%] w-[10%] h-auto font-bold aspect-[1/1];
+  @apply absolute -translate-x-1/2 -translate-y-1/2 left-[79%] top-[85.5%] w-[10%] h-auto font-bold aspect-[1/1];
 }
 .scoreboard-next button {
   @apply w-full h-full block;
@@ -55,7 +72,7 @@
 }
 
 .scoreboard-prev {
-  @apply absolute -translate-x-1/2 -translate-y-1/2 left-[22%] top-[82%] w-[10%] h-auto font-bold aspect-[1/1];
+  @apply absolute -translate-x-1/2 -translate-y-1/2 left-[22%] top-[85.5%] w-[10%] h-auto font-bold aspect-[1/1];
 }
 
 .scoreboard-prev button {
@@ -64,7 +81,7 @@
 }
 
 .scoreboard-tryAgain {
-  @apply absolute -translate-x-1/2 -translate-y-1/2 left-[50%] top-[82%] w-[40%] h-auto font-bold aspect-[3/1];
+  @apply absolute -translate-x-1/2 -translate-y-1/2 left-[50%] top-[85.5%] w-[40%] h-auto font-bold aspect-[3/1];
 }
 
 .scoreboard-tryAgain a {
