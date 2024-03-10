@@ -102,7 +102,7 @@ export default function Game1() {
                             <button className="btn-next" onClick={handleNext}></button>
                         </div>
                         <div className='scoreboard-tryAgain'>
-                            <a className="btn-tryAgain" href="https://www.wish-integrate.com/aim-at-pain/"></a>
+                            <a className="btn-tryAgain" href="https://www.wish-integrate.com/game/aim-at-pain/"></a>
                         </div>
                     </div>
                 </div>
