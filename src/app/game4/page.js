@@ -64,10 +64,10 @@ export default function Game1() {
 
     return (
         <>
-        <div className="bgScoreBoard">
+        <div className="bgScoreBoard bgGame4">
             <div className="flex justify-center items-center min-h-screen">
                 <div className="flex-1 max-w-[500px]">
-                    <div className="boxScoreBoard">
+                    <div className="boxScoreBoard boxGame4">
                         <div className="scoreboard-title uppercase">
                             <AutoTextSize>
                             Beat Allergy

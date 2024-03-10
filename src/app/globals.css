@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
 
 .bgScoreBoard {
   background-image: url("../../public/images/bg.png");
@@ -9,7 +9,15 @@
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-  font-family: "Itim", cursive;
+  font-family: "Noto Sans Thai", sans-serif;
+}
+
+.bgGame4 {
+  background-image: url("../../public/images/bgGame4.png");
+}
+
+.bgGame5 {
+  background-image: url("../../public/images/bgGame5.png");
 }
 
 .boxScoreBoard {
@@ -22,8 +30,17 @@
   height: auto;
   position: relative;
 }
+
+.boxGame4 {
+  background-image: url("../../public/images/bgBox-game4.png");
+}
+
+.boxGame5 {
+  background-image: url("../../public/images/bgBox-game5.png");
+}
+
 .scoreboard-title {
-  @apply absolute -translate-x-1/2 -translate-y-1/2 left-[49.5%] top-[10%] w-[60%] font-bold text-white text-center text-[22px];
+  @apply absolute -translate-x-1/2 -translate-y-1/2 left-[49.5%] top-[10%] w-[55%] font-medium text-white text-center text-[22px];
 }
 
 .scoreboard-body {
