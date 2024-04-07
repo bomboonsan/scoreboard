@@ -56,7 +56,7 @@ export async function POST(request) {
         
         await client.connect();
         console.log('connect successfully!');
-        const database = client.db('score-game-5'); // Choose a name for your database
+        const database = client.db('score-game-6'); // Choose a name for your database
 
         const collection = database.collection('score-game-5'); // Choose a name for your collection
 
@@ -83,9 +83,9 @@ export async function GET(request) {
 
         await client.connect();
         console.log('connect successfully!');
-        const database = client.db('score-game-5'); // Choose a name for your database
+        const database = client.db('score-game-6'); // Choose a name for your database
 
-        const collection = database.collection('score-game-5'); // Choose a name for your collection
+        const collection = database.collection('score-game-6'); // Choose a name for your collection
 
         const result = await collection.find({}).toArray();
         console.log('find successfully!');
