@@ -20,6 +20,10 @@
   background-image: url("../../public/images/bgGame5.png");
 }
 
+.bgGame6 {
+  background-image: url("../../public/images/bgGame6.png");
+}
+
 .boxScoreBoard {
   background-image: url("../../public/images/bgBox.png");
   background-repeat: no-repeat;
@@ -37,6 +41,10 @@
 
 .boxGame5 {
   background-image: url("../../public/images/bgBox-game5.png");
+}
+
+.boxGame6 {
+  background-image: url("../../public/images/bgBox-game4.png");
 }
 
 .scoreboard-title {
