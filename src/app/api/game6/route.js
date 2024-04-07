@@ -58,7 +58,7 @@ export async function POST(request) {
         console.log('connect successfully!');
         const database = client.db('score-game-6'); // Choose a name for your database
 
-        const collection = database.collection('score-game-5'); // Choose a name for your collection
+        const collection = database.collection('score-game-6'); // Choose a name for your collection
 
         await collection.insertOne({ name, score });
         console.log('insertOne successfully!');
