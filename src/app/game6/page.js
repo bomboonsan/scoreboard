@@ -102,7 +102,7 @@ export default function Game1() {
                             <button className="btn-next" onClick={handleNext}></button>
                         </div>
                         <div className='scoreboard-tryAgain'>
-                            <a className="btn-tryAgain" href="https://www.wish-integrate.com/game/black-berry-dash/?openExternalBrowser=1"></a>
+                            <a className="btn-tryAgain" href="https://wish-integrate.com/game/dev/black-berry-dash-v2/index2.html?openExternalBrowser=1"></a>
                         </div>
                     </div>
                 </div>
